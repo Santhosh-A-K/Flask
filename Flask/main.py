@@ -17,7 +17,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',check=False)
 
 @app.route('/connect/mongo/',methods=['POST','GET'])
 def connectToMongo():
@@ -29,8 +29,16 @@ def connectToMongo():
         host=request.args.get('host')
         port=request.args.get('port')
     con=mongoConnect(host,int(port))
-    print(con)
-    return render_template('index.html')
+    if con==None:
+        return render_template('index.html',check=True)
+    else:
+        return render_template('index1.html')
     
+    
+
+
+
+
+
 if __name__=='__main__':
     app.run(port=5000,debug=True,use_reloader=False)
