@@ -25,14 +25,17 @@ def connectToMongo():
     if request.method=='POST':
         host=request.form['host']
         port=request.form['port']
+        dbName=request.form['dbName']
     elif request.method=='GET':
         host=request.args.get('host')
         port=request.args.get('port')
-    con=mongoConnect(host,int(port))
+        dbName=request.args.get('dbName')
+    con=mongoConnect(host,int(port),dbName)
+    print(con)
     if con==None:
         return render_template('index.html',check=True)
     else:
-        return render_template('index1.html')
+        return render_template('columns.html')
     
     
 
