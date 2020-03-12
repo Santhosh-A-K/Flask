@@ -40,3 +40,16 @@ INFO:root:For this you must change the level and add a handler.
 INFO:werkzeug:127.0.0.1 - - [10/Mar/2020 23:41:37] "[37mPOST /connect/mongo/ HTTP/1.1[0m" 200 -
 INFO:root:For this you must change the level and add a handler.
 INFO:werkzeug:127.0.0.1 - - [10/Mar/2020 23:42:46] "[37mPOST /connect/mongo/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:18:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:18:54] "[33mGET /favicon.ico/ HTTP/1.1[0m" 404 -
+INFO:root:For this you must change the level and add a handler.
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:13] "[35m[1mPOST /connect/mongo/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:14] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:14] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:14] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:15] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:15] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:15] "[37mGET /connect/mongo/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:root:For this you must change the level and add a handler.
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2020 22:19:59] "[37mPOST /connect/mongo/ HTTP/1.1[0m" 200 -
